@@ -1,0 +1,29 @@
+#sc-documentor-toc {
+	overflow: hidden;
+	position: relative;
+}
+#sc-documentor-buttons {
+	display: block;
+	margin-top: 30px;
+}
+
+.no-focus:focus {
+	outline: none;
+}
+
+#sc-documentor-toc a { 
+	display:block;
+    margin-bottom: 5px;
+}
+
+#sc-documentor-toc a[title=H1] { 
+	font-size:18px;
+}
+
+#sc-documentor-toc a[title=H2] { 
+	font-size:14px;
+}
+
+#sc-documentor-toc a[title=H3] { 
+	font-size:10px;
+}
